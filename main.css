@@ -1,0 +1,284 @@
+/* default text color: #444349 (grey)
+alternate text color: #d2ba87 (gold)
+header tagline and date color: hsla(0,0%,100%,.9);
+dark background: hsla(100,0%,0%,.6);
+link color: #bd806e
+link color on hover: #eda087
+footer background color: #606060*/
+
+/* ==== A SIMPLE CSS RESET FROM ERIC MEYER ==== */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+* {
+	box-sizing: border-box;
+}
+
+/* MENÜ STYLE */
+
+nav ul {
+  background-color: ;
+  text-align: center;
+  
+}
+
+nav li {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 1.4rem;
+  line-height: 3rem;
+  height: 3rem;
+  border-bottom: 1px solid tan;
+  
+}
+nav a {
+  text-decoration: none;
+  color: seashell;
+  display: block;
+}
+nav a:hover {
+  background-color: antiquewhite;
+  color: white;
+  transition: background-color .3s ease-in-out;
+}
+
+@media (min-width: 600px) {
+  nav li {
+    display: inline-block;
+    border-bottom: none;
+    width: 7.5rem;
+  }
+}
+nav {
+  font-size: 0;
+  
+}
+
+
+
+/*BODY STYLE*/
+
+body {
+  background: teal;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1em;
+  
+}
+/*HEADER STYLE*/
+
+h1, h6 {
+  font-size: 1.5em;
+  font-family: 'Cairo', sans-serif;
+  text-align: center;
+  margin: 1em 1em;
+  color: seashell;
+      
+  }
+
+@media (min-width: 768px) {
+  h1, h6 {
+  font-size: 1.5em;
+  font-family: 'Cairo', sans-serif;
+  text-align: center;
+  margin: 2em 2em;
+
+  }
+}
+
+.cover, .quote, .names, .locations, .program, .contact {
+  width: 99%;
+  margin: .5em auto;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #bd806e;
+}
+
+a:hover {
+  color: black;
+  transition: color .15s ease-in-out;
+}
+
+
+/*    QUOTE STYLE   */
+
+.quote, .names, cover {
+  background: -webkit-linear-gradient(#eee, sandybrown);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 2em;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  margin: .5em auto ;
+}
+
+.quote p {
+  font-size: 1em;
+  font-family: 'Cairo', sans-serif;
+  text-align: center;
+  margin: 1em 1em;
+  font-style: italic
+}
+
+/*NAMES STYLE*/
+
+.names h3 {
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.p {
+  font-size: 2em;
+  font-family: 'Cairo', sans-serif;
+  
+}
+
+
+/* LOCATIONS STYLE */
+
+
+.locations {
+  background-color: seashell;
+     background: -webkit-linear-gradient(#eee, sandybrown);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  
+}
+
+h4 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5em;
+}
+
+.blurb {
+  font-family: 'Cairo', sans-serif;
+  font-size: 1.5em;
+  
+  
+}
+
+
+@media (min-width: 768px) {
+.blurb {
+  display: inline-block;
+  width: 30%;
+  padding: 1.5rem;
+  margin: .5rem;
+  vertical-align: top;
+
+ }
+  .blurb::after {
+  display: none;
+  }
+}
+
+/*  GIFTS  */
+
+.gifts {
+  font-family: 'Cairo', sans-serif;
+  text-align: center;
+  background: -webkit-linear-gradient(#eee, sandybrown);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+
+}
+.giftsek {
+  font-family: 'Cairo', sans-serif;
+  text-align: center;
+  font-size: 1.5em;
+  
+}
+
+/*   PROGRAMS   */
+.program {
+  background-color: seashell;
+   background: -webkit-linear-gradient(#eee, sandybrown);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  
+}
+
+.program-wrapper {
+  font-family: 'Cairo', sans-serif;
+  text-align: left;
+  font-size: 1.5em;
+}
+.program-wrapper p {
+  font-size: 1.2em;
+  font-family: 'Dancing Script', cursive ;
+  text-align: center;
+  margin: 1em 1em;
+  font-style: italic
+}
+@media (min-width: 768px) {
+.program-wrapper {
+    width: 30vw;
+    margin: 0 auto;
+  text-align: center;
+}
+}
+
+
+
+
+ul {
+  list-style-type:none;
+}
+
+/*  CONTACTS  */ 
+
+.contact {
+  background: -webkit-linear-gradient(#eee, sandybrown);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+}
+
+
+
+.contact p {
+  font-family: 'Cairo', sans-serif;
+  text-align: center;
+  font-size: 1.2em;
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
