@@ -105,6 +105,7 @@ h1, h6 {
   width: 99%;
   margin: .5em auto;
   text-align: center;
+  padding: .5rem 1rem;
 }
 a {
   text-decoration: none;
